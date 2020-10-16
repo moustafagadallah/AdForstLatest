@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vb5-vH-VRf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Wdb-V6-bNf">
+            <objects>
+                <viewController id="Vb5-vH-VRf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vPR-hv-nEq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Capture-lo" translatesAutoresizingMaskIntoConstraints="NO" id="EzI-Bh-igH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EzI-Bh-igH" firstAttribute="leading" secondItem="yQD-gs-Bn4" secondAttribute="leading" id="Lcu-Kf-8sJ"/>
+                            <constraint firstItem="EzI-Bh-igH" firstAttribute="bottom" secondItem="yQD-gs-Bn4" secondAttribute="bottom" id="dly-HV-Vpa"/>
+                            <constraint firstItem="EzI-Bh-igH" firstAttribute="trailing" secondItem="yQD-gs-Bn4" secondAttribute="trailing" id="fwg-lB-8Sa"/>
+                            <constraint firstItem="EzI-Bh-igH" firstAttribute="top" secondItem="vPR-hv-nEq" secondAttribute="top" id="tKE-8y-OVc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yQD-gs-Bn4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="baK-Th-yg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.8000000000000007" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Capture-lo" width="190.5" height="326"/>
+    </resources>
+</document>
